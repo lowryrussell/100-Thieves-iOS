@@ -3,14 +3,44 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A7651CE2462FC4800807C07 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7651CD2462FC4800807C07 /* BaseTabBarController.swift */; };
+		9A7651D2246426B500807C07 /* ContentCreatorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7651D0246426B500807C07 /* ContentCreatorTableViewCell.swift */; };
+		9A7651D3246426B500807C07 /* ContentCreatorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A7651D1246426B500807C07 /* ContentCreatorTableViewCell.xib */; };
+		9A7651D624643C2E00807C07 /* Creator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7651D524643C2E00807C07 /* Creator.swift */; };
+		9A7651D924644C2200807C07 /* LookbookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7651D724644C2200807C07 /* LookbookTableViewCell.swift */; };
+		9A7651DA24644C2200807C07 /* LookbookTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A7651D824644C2200807C07 /* LookbookTableViewCell.xib */; };
+		9A7651DC24644C4C00807C07 /* Lookbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7651DB24644C4C00807C07 /* Lookbook.swift */; };
+		9A7651DF2464555C00807C07 /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7651DE2464555C00807C07 /* UILabelExtension.swift */; };
+		9A7651E12465F9A200807C07 /* SocialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7651E02465F9A200807C07 /* SocialView.swift */; };
+		9A7651E32465F9B100807C07 /* SocialView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A7651E22465F9B100807C07 /* SocialView.xib */; };
+		9A7651E52467A2C800807C07 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7651E42467A2C800807C07 /* UIViewExtension.swift */; };
+		9A7651E72467A50000807C07 /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7651E62467A50000807C07 /* NibView.swift */; };
+		9A7651E92467A68000807C07 /* UIImageVIewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7651E82467A68000807C07 /* UIImageVIewExtension.swift */; };
+		9A7651EB24697B9D00807C07 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7651EA24697B9D00807C07 /* UIViewControllerExtension.swift */; };
+		9A7651ED2469E0AE00807C07 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7651EC2469E0AE00807C07 /* Api.swift */; };
+		9A7651F12469E0EF00807C07 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 9A7651F02469E0EF00807C07 /* Alamofire */; };
+		9A7651F32469E1B600807C07 /* Creators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7651F22469E1B600807C07 /* Creators.swift */; };
+		9A7651F52469E29900807C07 /* CreatorsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7651F42469E29900807C07 /* CreatorsApi.swift */; };
+		9A7651F8246A02AB00807C07 /* NVActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = 9A7651F7246A02AB00807C07 /* NVActivityIndicatorView */; };
+		9A7651FA246ACBB900807C07 /* LookbooksApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7651F9246ACBB900807C07 /* LookbooksApi.swift */; };
+		9A7651FC246ACBE200807C07 /* Lookbooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7651FB246ACBE200807C07 /* Lookbooks.swift */; };
+		9A7651FE246B3EB900807C07 /* LeaguesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7651FD246B3EB900807C07 /* LeaguesViewController.swift */; };
+		9A76520024746A2A00807C07 /* LeaguesApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7651FF24746A2A00807C07 /* LeaguesApi.swift */; };
+		9A76520224746A6600807C07 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A76520124746A6600807C07 /* Player.swift */; };
+		9A76520424746A8E00807C07 /* Players.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A76520324746A8E00807C07 /* Players.swift */; };
+		9A76520624746A9900807C07 /* League.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A76520524746A9900807C07 /* League.swift */; };
+		9A76520824746AA100807C07 /* Leagues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A76520724746AA100807C07 /* Leagues.swift */; };
+		9A76520B247473EA00807C07 /* LeaguesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A765209247473EA00807C07 /* LeaguesTableViewCell.swift */; };
+		9A76520C247473EA00807C07 /* LeaguesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A76520A247473EA00807C07 /* LeaguesTableViewCell.xib */; };
+		9A7652122474DD6300807C07 /* Socials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7652112474DD6300807C07 /* Socials.swift */; };
 		9AB045D32462EA6E0049BCD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB045D22462EA6E0049BCD5 /* AppDelegate.swift */; };
 		9AB045D52462EA6E0049BCD5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB045D42462EA6E0049BCD5 /* SceneDelegate.swift */; };
-		9AB045D72462EA6E0049BCD5 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB045D62462EA6E0049BCD5 /* FirstViewController.swift */; };
-		9AB045D92462EA6E0049BCD5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB045D82462EA6E0049BCD5 /* SecondViewController.swift */; };
+		9AB045D72462EA6E0049BCD5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB045D62462EA6E0049BCD5 /* HomeViewController.swift */; };
+		9AB045D92462EA6E0049BCD5 /* CreatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB045D82462EA6E0049BCD5 /* CreatorsViewController.swift */; };
 		9AB045DC2462EA6E0049BCD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AB045DA2462EA6E0049BCD5 /* Main.storyboard */; };
 		9AB045DE2462EA710049BCD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AB045DD2462EA710049BCD5 /* Assets.xcassets */; };
 		9AB045E12462EA710049BCD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AB045DF2462EA710049BCD5 /* LaunchScreen.storyboard */; };
@@ -36,11 +66,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9AB045CF2462EA6E0049BCD5 /* HundredThieves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HundredThieves.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A7651CD2462FC4800807C07 /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		9A7651D0246426B500807C07 /* ContentCreatorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCreatorTableViewCell.swift; sourceTree = "<group>"; };
+		9A7651D1246426B500807C07 /* ContentCreatorTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentCreatorTableViewCell.xib; sourceTree = "<group>"; };
+		9A7651D524643C2E00807C07 /* Creator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creator.swift; sourceTree = "<group>"; };
+		9A7651D724644C2200807C07 /* LookbookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookbookTableViewCell.swift; sourceTree = "<group>"; };
+		9A7651D824644C2200807C07 /* LookbookTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LookbookTableViewCell.xib; sourceTree = "<group>"; };
+		9A7651DB24644C4C00807C07 /* Lookbook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lookbook.swift; sourceTree = "<group>"; };
+		9A7651DE2464555C00807C07 /* UILabelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
+		9A7651E02465F9A200807C07 /* SocialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialView.swift; sourceTree = "<group>"; };
+		9A7651E22465F9B100807C07 /* SocialView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SocialView.xib; sourceTree = "<group>"; };
+		9A7651E42467A2C800807C07 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		9A7651E62467A50000807C07 /* NibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibView.swift; sourceTree = "<group>"; };
+		9A7651E82467A68000807C07 /* UIImageVIewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageVIewExtension.swift; sourceTree = "<group>"; };
+		9A7651EA24697B9D00807C07 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		9A7651EC2469E0AE00807C07 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		9A7651F22469E1B600807C07 /* Creators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creators.swift; sourceTree = "<group>"; };
+		9A7651F42469E29900807C07 /* CreatorsApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatorsApi.swift; sourceTree = "<group>"; };
+		9A7651F9246ACBB900807C07 /* LookbooksApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookbooksApi.swift; sourceTree = "<group>"; };
+		9A7651FB246ACBE200807C07 /* Lookbooks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lookbooks.swift; sourceTree = "<group>"; };
+		9A7651FD246B3EB900807C07 /* LeaguesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaguesViewController.swift; sourceTree = "<group>"; };
+		9A7651FF24746A2A00807C07 /* LeaguesApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaguesApi.swift; sourceTree = "<group>"; };
+		9A76520124746A6600807C07 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		9A76520324746A8E00807C07 /* Players.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Players.swift; sourceTree = "<group>"; };
+		9A76520524746A9900807C07 /* League.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = League.swift; sourceTree = "<group>"; };
+		9A76520724746AA100807C07 /* Leagues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leagues.swift; sourceTree = "<group>"; };
+		9A765209247473EA00807C07 /* LeaguesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaguesTableViewCell.swift; sourceTree = "<group>"; };
+		9A76520A247473EA00807C07 /* LeaguesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeaguesTableViewCell.xib; sourceTree = "<group>"; };
+		9A7652112474DD6300807C07 /* Socials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Socials.swift; sourceTree = "<group>"; };
+		9AB045CF2462EA6E0049BCD5 /* 100 Thieves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "100 Thieves.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AB045D22462EA6E0049BCD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9AB045D42462EA6E0049BCD5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9AB045D62462EA6E0049BCD5 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		9AB045D82462EA6E0049BCD5 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		9AB045D62462EA6E0049BCD5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9AB045D82462EA6E0049BCD5 /* CreatorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatorsViewController.swift; sourceTree = "<group>"; };
 		9AB045DB2462EA6E0049BCD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9AB045DD2462EA710049BCD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AB045E02462EA710049BCD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +116,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A7651F8246A02AB00807C07 /* NVActivityIndicatorView in Frameworks */,
+				9A7651F12469E0EF00807C07 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +138,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A7651CF2464269B00807C07 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9A7651D0246426B500807C07 /* ContentCreatorTableViewCell.swift */,
+				9A7651D1246426B500807C07 /* ContentCreatorTableViewCell.xib */,
+				9A7651D724644C2200807C07 /* LookbookTableViewCell.swift */,
+				9A7651D824644C2200807C07 /* LookbookTableViewCell.xib */,
+				9A7651E02465F9A200807C07 /* SocialView.swift */,
+				9A7651E22465F9B100807C07 /* SocialView.xib */,
+				9A7651E62467A50000807C07 /* NibView.swift */,
+				9A765209247473EA00807C07 /* LeaguesTableViewCell.swift */,
+				9A76520A247473EA00807C07 /* LeaguesTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9A7651D424643C1300807C07 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9A7651D524643C2E00807C07 /* Creator.swift */,
+				9A7651F22469E1B600807C07 /* Creators.swift */,
+				9A7651DB24644C4C00807C07 /* Lookbook.swift */,
+				9A7651FB246ACBE200807C07 /* Lookbooks.swift */,
+				9A76520124746A6600807C07 /* Player.swift */,
+				9A76520324746A8E00807C07 /* Players.swift */,
+				9A76520524746A9900807C07 /* League.swift */,
+				9A76520724746AA100807C07 /* Leagues.swift */,
+				9A7652112474DD6300807C07 /* Socials.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9A7651DD2464554700807C07 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9A7651DE2464555C00807C07 /* UILabelExtension.swift */,
+				9A7651E42467A2C800807C07 /* UIViewExtension.swift */,
+				9A7651E82467A68000807C07 /* UIImageVIewExtension.swift */,
+				9A7651EA24697B9D00807C07 /* UIViewControllerExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9A7651EE2469E0B600807C07 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				9A7651EC2469E0AE00807C07 /* Api.swift */,
+				9A7651F42469E29900807C07 /* CreatorsApi.swift */,
+				9A7651F9246ACBB900807C07 /* LookbooksApi.swift */,
+				9A7651FF24746A2A00807C07 /* LeaguesApi.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		9AB045C62462EA6E0049BCD5 = {
 			isa = PBXGroup;
 			children = (
@@ -91,7 +205,7 @@
 		9AB045D02462EA6E0049BCD5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9AB045CF2462EA6E0049BCD5 /* HundredThieves.app */,
+				9AB045CF2462EA6E0049BCD5 /* 100 Thieves.app */,
 				9AB045E72462EA720049BCD5 /* HundredThievesTests.xctest */,
 				9AB045F22462EA720049BCD5 /* HundredThievesUITests.xctest */,
 			);
@@ -101,11 +215,14 @@
 		9AB045D12462EA6E0049BCD5 /* HundredThieves */ = {
 			isa = PBXGroup;
 			children = (
+				9A7651EE2469E0B600807C07 /* API */,
+				9A7651DD2464554700807C07 /* Extensions */,
+				9A7651D424643C1300807C07 /* Models */,
+				9A7651CF2464269B00807C07 /* Views */,
+				9AB046052462ED700049BCD5 /* Storyboards */,
+				9AB046042462ED280049BCD5 /* Controllers */,
 				9AB045D22462EA6E0049BCD5 /* AppDelegate.swift */,
 				9AB045D42462EA6E0049BCD5 /* SceneDelegate.swift */,
-				9AB045D62462EA6E0049BCD5 /* FirstViewController.swift */,
-				9AB045D82462EA6E0049BCD5 /* SecondViewController.swift */,
-				9AB045DA2462EA6E0049BCD5 /* Main.storyboard */,
 				9AB045DD2462EA710049BCD5 /* Assets.xcassets */,
 				9AB045DF2462EA710049BCD5 /* LaunchScreen.storyboard */,
 				9AB045E22462EA710049BCD5 /* Info.plist */,
@@ -131,6 +248,25 @@
 			path = HundredThievesUITests;
 			sourceTree = "<group>";
 		};
+		9AB046042462ED280049BCD5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9AB045D62462EA6E0049BCD5 /* HomeViewController.swift */,
+				9AB045D82462EA6E0049BCD5 /* CreatorsViewController.swift */,
+				9A7651FD246B3EB900807C07 /* LeaguesViewController.swift */,
+				9A7651CD2462FC4800807C07 /* BaseTabBarController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9AB046052462ED700049BCD5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9AB045DA2462EA6E0049BCD5 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,8 +283,12 @@
 			dependencies = (
 			);
 			name = HundredThieves;
+			packageProductDependencies = (
+				9A7651F02469E0EF00807C07 /* Alamofire */,
+				9A7651F7246A02AB00807C07 /* NVActivityIndicatorView */,
+			);
 			productName = HundredThieves;
-			productReference = 9AB045CF2462EA6E0049BCD5 /* HundredThieves.app */;
+			productReference = 9AB045CF2462EA6E0049BCD5 /* 100 Thieves.app */;
 			productType = "com.apple.product-type.application";
 		};
 		9AB045E62462EA720049BCD5 /* HundredThievesTests */ = {
@@ -219,6 +359,10 @@
 				Base,
 			);
 			mainGroup = 9AB045C62462EA6E0049BCD5;
+			packageReferences = (
+				9A7651EF2469E0EF00807C07 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				9A7651F6246A02AB00807C07 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */,
+			);
 			productRefGroup = 9AB045D02462EA6E0049BCD5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,9 +379,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A76520C247473EA00807C07 /* LeaguesTableViewCell.xib in Resources */,
+				9A7651DA24644C2200807C07 /* LookbookTableViewCell.xib in Resources */,
 				9AB045E12462EA710049BCD5 /* LaunchScreen.storyboard in Resources */,
 				9AB045DE2462EA710049BCD5 /* Assets.xcassets in Resources */,
+				9A7651D3246426B500807C07 /* ContentCreatorTableViewCell.xib in Resources */,
 				9AB045DC2462EA6E0049BCD5 /* Main.storyboard in Resources */,
+				9A7651E32465F9B100807C07 /* SocialView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,10 +410,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AB045D92462EA6E0049BCD5 /* SecondViewController.swift in Sources */,
-				9AB045D72462EA6E0049BCD5 /* FirstViewController.swift in Sources */,
+				9A76520424746A8E00807C07 /* Players.swift in Sources */,
+				9AB045D92462EA6E0049BCD5 /* CreatorsViewController.swift in Sources */,
+				9A7651FC246ACBE200807C07 /* Lookbooks.swift in Sources */,
+				9A7651D924644C2200807C07 /* LookbookTableViewCell.swift in Sources */,
+				9A7651EB24697B9D00807C07 /* UIViewControllerExtension.swift in Sources */,
+				9A76520224746A6600807C07 /* Player.swift in Sources */,
+				9A7651DF2464555C00807C07 /* UILabelExtension.swift in Sources */,
+				9A76520B247473EA00807C07 /* LeaguesTableViewCell.swift in Sources */,
+				9A7651E12465F9A200807C07 /* SocialView.swift in Sources */,
+				9AB045D72462EA6E0049BCD5 /* HomeViewController.swift in Sources */,
+				9A76520024746A2A00807C07 /* LeaguesApi.swift in Sources */,
+				9A7651D2246426B500807C07 /* ContentCreatorTableViewCell.swift in Sources */,
+				9A7651E92467A68000807C07 /* UIImageVIewExtension.swift in Sources */,
+				9A76520824746AA100807C07 /* Leagues.swift in Sources */,
+				9A7651E52467A2C800807C07 /* UIViewExtension.swift in Sources */,
+				9A7651F52469E29900807C07 /* CreatorsApi.swift in Sources */,
+				9A7651CE2462FC4800807C07 /* BaseTabBarController.swift in Sources */,
 				9AB045D32462EA6E0049BCD5 /* AppDelegate.swift in Sources */,
+				9A7651D624643C2E00807C07 /* Creator.swift in Sources */,
+				9A7651E72467A50000807C07 /* NibView.swift in Sources */,
+				9A76520624746A9900807C07 /* League.swift in Sources */,
+				9A7651DC24644C4C00807C07 /* Lookbook.swift in Sources */,
+				9A7651ED2469E0AE00807C07 /* Api.swift in Sources */,
+				9A7651FE246B3EB900807C07 /* LeaguesViewController.swift in Sources */,
 				9AB045D52462EA6E0049BCD5 /* SceneDelegate.swift in Sources */,
+				9A7651FA246ACBB900807C07 /* LookbooksApi.swift in Sources */,
+				9A7652122474DD6300807C07 /* Socials.swift in Sources */,
+				9A7651F32469E1B600807C07 /* Creators.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,14 +611,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DHK57V6BH6;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 7479AP9GZJ;
 				INFOPLIST_FILE = HundredThieves/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.100Thieves.HundredThieves;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.100Thieves.HundredThievesApp;
+				PRODUCT_NAME = "100 Thieves";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -457,14 +631,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DHK57V6BH6;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 7479AP9GZJ;
 				INFOPLIST_FILE = HundredThieves/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.100Thieves.HundredThieves;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.100Thieves.HundredThievesApp;
+				PRODUCT_NAME = "100 Thieves";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -594,6 +770,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9A7651EF2469E0EF00807C07 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+		9A7651F6246A02AB00807C07 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ninjaprox/NVActivityIndicatorView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.8.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9A7651F02469E0EF00807C07 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A7651EF2469E0EF00807C07 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		9A7651F7246A02AB00807C07 /* NVActivityIndicatorView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A7651F6246A02AB00807C07 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */;
+			productName = NVActivityIndicatorView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9AB045C72462EA6E0049BCD5 /* Project object */;
 }
